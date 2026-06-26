@@ -28,6 +28,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipStylePreview.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift"
         },
         {
@@ -48,6 +52,7 @@
       "moduleOutputPath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/Modules/CleanTipStyle.swiftmodule",
       "objects" : [
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.swift.o",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipStylePreview.swift.o",
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swift.o",
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.swift.o"
       ],
@@ -108,6 +113,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipStylePreview.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swift.o"
         },
         {
@@ -122,6 +131,7 @@
       "prepareForIndexing" : false,
       "sources" : [
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipStylePreview.swift",
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift",
         "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift"
       ],
@@ -141,6 +151,7 @@
       "cleantipstyle",
       "-c",
       "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipStylePreview.swift",
       "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift",
       "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift",
       "-I",
@@ -223,6 +234,10 @@
         {
           "kind" : "file",
           "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipStylePreview.swift"
         },
         {
           "kind" : "file",
