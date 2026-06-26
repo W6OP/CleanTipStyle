@@ -1,0 +1,253 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CleanTipStyle-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/sources",
+      "importPath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CleanTipStyle",
+      "moduleOutputPath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/Modules/CleanTipStyle.swiftmodule",
+      "objects" : [
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.swift.o",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swift.o",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx26.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j24",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/include/CleanTipStyle-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "cleantipstyle"
+      ],
+      "outputFileMapPath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/Modules/CleanTipStyle.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift",
+        "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift"
+      ],
+      "tempsPath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CleanTipStyle" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CleanTipStyle",
+      "-package-name",
+      "cleantipstyle",
+      "-c",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift",
+      "-I",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx26.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j24",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/include/CleanTipStyle-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "cleantipstyle",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CleanTipStyle" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/sources"
+    },
+    "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

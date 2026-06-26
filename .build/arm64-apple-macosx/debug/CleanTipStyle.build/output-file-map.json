@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/primary.swiftdeps"
+  },
+  "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipContent.swift": {
+    "dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.d",
+    "object": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.swift.o",
+    "swiftmodule": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent~partial.swiftmodule",
+    "swift-dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.swiftdeps",
+    "diagnostics": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipContent.dia"
+  },
+  "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/CleanTipViewStyle.swift": {
+    "dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.d",
+    "object": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swift.o",
+    "swiftmodule": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.swiftdeps",
+    "diagnostics": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/CleanTipViewStyle.dia"
+  },
+  "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/Sources/CleanTipStyle/DefaultCleanTipBackground.swift": {
+    "dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.d",
+    "object": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.swift.o",
+    "swiftmodule": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground~partial.swiftmodule",
+    "swift-dependencies": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.swiftdeps",
+    "diagnostics": "/Users/pbourget/XcodeProjects/Packages/CleanTipStyle/.build/arm64-apple-macosx/debug/CleanTipStyle.build/DefaultCleanTipBackground.dia"
+  }
+}
