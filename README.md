@@ -23,7 +23,7 @@ Add the `CleanTipStyle` library product to your app target.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/<your-username>/CleanTipStyle", from: "1.0.0")
+    .package(url: "https://github.com/w6op/CleanTipStyle", from: "1.0.0")
 ]
 
 Then add "CleanTipStyle" to your target's dependencies.
