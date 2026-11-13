@@ -5,7 +5,7 @@ let package = Package(
   name: "CleanTipStyle",
   platforms: [
     .iOS(.v26),
-    .macOS(.v26),
+    .macOS(.v26)
   ],
   products: [
     .library(
@@ -17,9 +17,7 @@ let package = Package(
     .target(
       name: "CleanTipStyle",
       swiftSettings: [
-        .swiftLanguageMode(.v6),
-        .enableExperimentalFeature("StrictConcurrency"),
-
+        .swiftLanguageMode(.v6)
       ]
     )
   ]

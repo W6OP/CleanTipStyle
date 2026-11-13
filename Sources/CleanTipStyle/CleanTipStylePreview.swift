@@ -19,6 +19,10 @@ private struct CleanTipStyleSampleTip: Tip {
         Text("Save a post as a draft, return to a saved draft, or schedule one for later.")
     }
 
+    var actions: [Action] {
+        Action(id: "openDrafts", title: "Open drafts")
+    }
+
     var image: Image? {
         Image(systemName: "doc.badge.clock")
     }

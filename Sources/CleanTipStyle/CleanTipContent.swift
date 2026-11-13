@@ -32,15 +32,20 @@ struct CleanTipContent<Background: View>: View {
 
             Spacer(minLength: 0)
 
-            Button {
+            // Labelled for VoiceOver and Voice Control ("Tap Close tip"); shown as the icon only.
+            Button("Close tip", systemImage: "xmark") {
                 configuration.tip.invalidate(reason: .tipClosed)
-            } label: {
-                Image(systemName: "xmark")
-                    .font(.caption.weight(.semibold))
-                    .foregroundStyle(.secondary)
             }
+            .labelStyle(.iconOnly)
+            .font(.caption.weight(.semibold))
+            .foregroundStyle(.primary)
+            #if os(iOS)
+            .buttonStyle(CleanTipCloseButtonStyle())
+            // Cancel the hit-area padding so the icon keeps its original position and size.
+            .padding(-22)
+            #else
             .buttonStyle(.plain)
-            .focusable(false)
+            #endif
         }
         .padding()
         .background { background }

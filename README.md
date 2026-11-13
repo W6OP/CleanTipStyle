@@ -10,6 +10,23 @@ The tip lays out a leading icon, title/message stack, optional action buttons, a
 - iOS 26+ / macOS 26+
 - TipKit
 
+## Accessibility
+
+The close button is labelled “Close tip” for VoiceOver and Voice Control and participates in keyboard navigation.
+On iOS its expanded touch target is at least 44 × 44 points while retaining the compact visual layout.
+Text uses Dynamic Type styles, and tip actions retain their own labels.
+When supplying a custom background or tint, check its contrast in both appearances and with Increase Contrast.
+
+## Release notes
+
+### 1.0.1
+
+- Label the close button and restore keyboard access on iOS and macOS.
+- Expand the iOS close button's touch target without changing the visible layout.
+- Use the primary semantic foreground for a stronger close icon in light and dark mode.
+- Remove tracked build artifacts and ignore Swift package and Xcode user-generated files.
+- Remove the redundant experimental StrictConcurrency setting; Swift 6 checking remains enabled.
+
 ## Installation
 
 ### Swift Package Manager (Xcode)
@@ -25,6 +42,7 @@ Add the `CleanTipStyle` library product to your app target.
 dependencies: [
     .package(url: "https://github.com/w6op/CleanTipStyle", from: "1.0.0")
 ]
+```
 
 Then add "CleanTipStyle" to your target's dependencies.
 
